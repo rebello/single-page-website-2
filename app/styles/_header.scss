@@ -2,7 +2,7 @@ $font-web:'ralewayregular';
 $text-color: '#fffff' ;
 
 header {
-     border-top:10px solid #2ecc71;
+     background-color: #2ecc71;
      position: relative;
      text-decoration: none;
     .header-wrap {
@@ -16,18 +16,29 @@ header {
     }
     .nav-overide {
         background-color: transparent;
-    }> .navbar-header .navbar-toggle span{
-        border:1px #ed1b24;
+    }
+     .navbar-nav > li > a {
+        color:#fff;
+        font-size:19px;
+    }
+    .navbar-toggle .icon-bar {
+         border:1px #ed1b24 !important;
     }
     .header-image {
         width: 100%;
         max-height: 550px;
+        border-bottom:5px solid #134214;
     }
     .header-hand {
         position: absolute;
         bottom:0;
         right:10px;
         height: 100%;
+    }
+    .btn-higlight {
+        border:1px solid red;
+    } >.icon-bar {
+        border:1px solid red;
     }
     .tag-line {
         color:$text-color;
@@ -67,5 +78,10 @@ header {
      header .header-details-wrap {
         display:none !important;
         }
+    header .header-wrap {
+        background:url('../images/logo.png');
+        width:300px;
+        height:300px;
+    }
    }  
 }

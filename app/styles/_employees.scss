@@ -1,0 +1,18 @@
+$emp-color:#fff;
+.employees {
+	background:url('../images/employees.jpg') no-repeat center center fixed;;
+  	background-size: cover;
+  	height:auto;
+  	padding:30px 0;
+  	color:	$emp-color;
+  	font-size:18px;
+  	border-top:5px solid #992034;
+	h2 {
+		color:$emp-color;
+		font-size: 45px;
+		font-weight: bold;
+	}
+	h3 {
+		color:#889927;
+	}
+}

@@ -1,14 +1,14 @@
 .notif {
-	margin-top:40px;
 	max-height: 500px;
-	background-color:#e3e3e3;
+	background-color:#d95b43;
 	width:100%;
-	padding:0 50px 30px 50px;
+	padding:40px 0 30px 0;
+	border-top:5px solid #ad4835;
+	font-size:19px;
 	.btn-default {
 		padding:10px;
 		background-color:#2dcc70;
 		font-size: 25px;
-		color:#ffffff;
 	}
 	.input-group {
 		width: 70%;
@@ -29,7 +29,7 @@
 		margin:auto;
 	}
 	.notif-text {
-		color:#848484;
+		color:#fff;
 	}
 	.btn-overide {
 		border-bottom-right-radius: 26px;

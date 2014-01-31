@@ -1,82 +1,61 @@
-@mixin footer-list-pro{
-	text-decoration: none;
-	list-style:none;
-	color:#fff;
-	ul,li{
-		padding:0;
-		margin:0;
-	}
-}
+// .testmonial {
+// 	.block-quote {
+// 	display: block;
+// 	max-width:800px;
+// 	margin:auto;
+// 	font-size:18px;
+// 	margin-top:30px;
+// 	}
+// 	.icon-list-bottom li {
+// 	margin-left:30px;
+// 	margin-top:30px;
+// 	}
+// 	.icon-list-bottom a {
+// 	color:#d4d4d4;
+// 	}a:hover {
+// 	color:#2ecc71;
+// 	}
+// 	.testmonial img {
+// 	width:100%;
+// 	}
+// 	.touch {
+// 	margin-top:50px;
+// 	}
+// 	.wrap-social {
+// 	padding-bottom:50px;
+// 	}
+// 	.wrap-user-image {
+// 	position:relative;
+// 		img{
+// 		float:left;
+// 		height:50px;
+// 		width:50px;
+// 		margin-left:4px;
+// 		}
+// 	.blur-image-left {
+// 	position:absolute;
+// 	height:50px;
+// 	width:25px;
+// 	background-color:rgba(255,255,255,0.8);
+// 	}
+// 	.blur-image-right {
+// 	right:0;
+// 	}
+//   }
+// }
+
+
 
 .testmonial {
-	.block-quote {
-	display: block;
-	max-width:800px;
-	margin:auto;
-	font-size:18px;
-	margin-top:30px;
-	}
-	.icon-list-bottom li {
-	margin-left:30px;
-	margin-top:30px;
-	}
-	.icon-list-bottom a {
-	color:#d4d4d4;
-	}a:hover {
-	color:#2ecc71;
-	}
-	.testmonial img {
-	width:100%;
-	}
-	.touch {
-	margin-top:50px;
-	}
-	.wrap-social {
-	padding-bottom:50px;
-	}
-	.wrap-user-image {
-	position:relative;
-		img{
-		float:left;
-		height:50px;
-		width:50px;
-		margin-left:4px;
-		}
-	.blur-image-left {
-	position:absolute;
-	height:50px;
-	width:25px;
-	background-color:rgba(255,255,255,0.8);
-	}
-	.blur-image-right {
-	right:0;
-	}
-  }
-}
-
-footer {
-	padding:30px 0;
-	background-color:#1c1f26;
-	font-size:15px;
-	color:#e3e3e3;
-	min-height:100px;
-	.home-footer-list  {
-		@include footer-list-pro;
-	}li > a {
+	border-top:5px solid #431c2c;
+	background-color:#542437;
+	.padd {
 		color:#fff;
-	}:hover{
-		text-decoration: none;
 	}
-	.logo-footer >img {
-		height: 100px;
-		width:auto;
-		border-left:1px solid #e3e3e3;
-		border-right:1px solid #e3e3e3;
-		padding:0 20px;
+	 h2 {
+		color:#fff;
 	}
-	@media screen and (max-width: 800px) {
-	.copyright-text {
-		width:300px;
-		}
+	.customer-logo > .col-md-3 {
+		margin:30px;
 	}
 }
