@@ -1,0 +1,16 @@
+// services
+.services {
+	margin-top:30px;
+	width:100%;
+	padding:10px;
+	.col-md-4 > .icon{
+		color:#ffffff;
+		background-color: #2dcc70;
+		padding: 15px 20px;
+		border-radius: 50%;
+	}
+	.row > .col-md-4 > p{
+		color:#848484;
+		font-family: Arial, sans-serif;
+	}
+}

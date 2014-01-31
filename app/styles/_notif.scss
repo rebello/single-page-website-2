@@ -1,0 +1,44 @@
+.notif {
+	margin-top:40px;
+	max-height: 500px;
+	background-color:#e3e3e3;
+	width:100%;
+	padding:0 50px 30px 50px;
+	.btn-default {
+		padding:10px;
+		background-color:#2dcc70;
+		font-size: 25px;
+		color:#ffffff;
+	}
+	.input-group {
+		width: 70%;
+		margin-top:30px;
+		border-radius: 13px;
+	}
+	.form-control {
+		padding: 28px;
+		border-bottom-left-radius: 26px;
+		border-top-left-radius: 26px;
+	}
+	.vimeo-video {
+		margin-top:20px;
+		border-radius:13px;
+	}
+	.block-quote {
+		width: 500px;
+		margin:auto;
+	}
+	.notif-text {
+		color:#848484;
+	}
+	.btn-overide {
+		border-bottom-right-radius: 26px;
+		border-top-right-radius: 26px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.notif .vimeo-video {
+		display:none;
+	}
+}
